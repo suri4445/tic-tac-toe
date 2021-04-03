@@ -1,0 +1,263 @@
+
+.board {
+  width: 440px;
+  height: 440px;
+  display: grid;
+  grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+  gap: 1px;
+  border-radius: 46px;
+  margin-left: 20px;
+  margin-top: 18px;
+}
+
+.squares {
+  background: #253952;
+  border: 2px dashed #253952;
+  font-size: 5rem;
+  cursor: pointer;
+  outline: none;
+  height: 120px;
+  width: 120px;
+  border-radius: 15px;
+  margin-top: 10px;
+  margin-left: 15px;
+}
+
+.X {
+  color: #FFFFFF;
+}
+.O {
+  color: #FFFFFF;
+}
+
+.info-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+li {
+  list-style: none;
+}
+
+.info-wrapper button {
+  background: #272727;
+  color: white;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 0.5rem;
+  margin: 0.5rem 1rem;
+}
+
+.roundLeft{
+    top: 316px;
+    left: 132px;
+    width: 123px;
+    height: 137px;
+    background: #253952 0% 0% no-repeat padding-box;
+    border-radius: 24px;
+    opacity: 1;
+    position: absolute;
+}
+
+.roundRight{
+    top: 316px;
+    left: 995px;
+    width: 123px;
+    height: 137px;
+    background: #253952 0% 0% no-repeat padding-box;
+    border-radius: 24px;
+    opacity: 1;
+    position: absolute;
+}
+
+.xText{
+    position: absolute;
+    top: 263px;
+    left: 158px;
+    width: 91px;
+    height: 28px;
+    text-align: left;
+    font: normal normal medium 21px/28px Roboto;
+    letter-spacing: 0px;
+    color: #FB9E01;
+    opacity: 1;
+}
+
+.oText{
+    position: absolute;
+    top: 263px;
+    left: 1022px;
+    width: 91px;
+    height: 28px;
+    text-align: left;
+    font: normal normal medium 28px Roboto;
+    letter-spacing: 0px;
+    color: #FB9E01;
+    opacity: 1;
+}
+
+.dotsX{
+    top: 410px;
+    left: 129px;
+    width: 123px;
+    position: absolute;
+    letter-spacing: 10px;
+    font-size : 2;
+    font-size: 61px;
+    color :#253952
+}
+
+.dotsY{
+    top: 410px;
+    left: 995px;
+    width: 123px;
+    position: absolute;
+    letter-spacing: 10px;
+    font-size : 2;
+    font-size: 61px;
+    color :#253952
+}
+
+.player1Text{
+  font-size: 10px;
+    color: rgb(251, 158, 1);
+    position: absolute;
+    top: 15px;
+    left: 40px;
+    width: 44px;
+    height: 13px;
+}
+
+.p1Name{
+  font-size: 16px;
+    color: white;
+    top: 38px;
+    left: 22px;
+    width: 76px;
+    height: 24px;
+    position: absolute;
+    font-weight: bold;
+}
+
+.xtxt{
+  position: absolute;
+  top: 57px;
+  left: 43px;
+  width: 43px;
+  height: 43px;
+  opacity: 1;
+  font-size: 50px;
+  font-family: Poppins;
+  font-weight: bold;
+  color: white;
+}
+
+.player2Text{
+  font-size: 10px;
+    color: rgb(251, 158, 1);
+    position: absolute;
+    top: 15px;
+    left: 42px;
+    width: 44px;
+    height: 13px;
+}
+
+.p2Name{
+  font-size: 16px;
+    color: white;
+    top: 38px;
+    left: 20px;
+    width: 76px;
+    height: 24px;
+    position: absolute;
+    font-weight: bold;
+}
+
+.ytxt{
+  position: absolute;
+  top: 57px;
+  left: 40px;
+  width: 43px;
+  height: 43px;
+  opacity: 1;
+  font-size: 50px;
+  font-family: Poppins;
+  font-weight: bold;
+  color: white;
+}
+
+.winnertxt{
+  padding: 44px 0px 0px 155px;
+  opacity: 1;
+  color:white;
+  font-size: 23px;
+  letter-spacing: 0.83px;
+  opacity: 1;
+  font: normal normal normal 23px/25px Poppins;
+  font-family: Poppins;
+}
+
+.winBox{
+  top: 283px;
+  left: 510px;
+  width: 230px;
+  height: 256px;
+  background: #253952 0% 0% no-repeat padding-box;
+  border: 3px solid #FB9E01;
+  opacity: 1;
+    position: absolute;
+    border-radius: 24px;
+}
+
+.player{
+  top: 315px;
+left: 585px;
+width: 79px;
+height: 24px;
+text-align: center;
+font: normal normal medium 18px/24px;
+letter-spacing: 0px;
+color: #FB9E01;
+opacity: 1;
+position: absolute;
+font-size: 18px;
+}
+
+.pname{
+  top: 361px;
+  left: 555px;
+  width: 140px;
+  height: 44px;
+  text-align: center;
+  font: normal normal medium 44px Roboto;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  opacity: 1;
+  position: absolute;
+  font-size: 33px;
+}
+
+.wsymbol{
+  top: 399px;
+    left: 585px;
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    color: #FFFFFF;
+    font-size: 96px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.nextBtn{
+    top: 64px;
+    left: 569px;
+    /* width: 297px; */
+    height: 49px;
+    background: transparent linear-gradient(270deg, #FBA202 0%, #FF5800 100%) 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #000000;
+    border-radius: 2px;
+    opacity: 1;
+    position: absolute;
+}

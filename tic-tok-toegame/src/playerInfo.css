@@ -1,0 +1,121 @@
+.layout{
+    top: 0px;
+    left: 0px;
+    width: 1250px;
+    height: 768px;
+    background: #0B233F 0% 0% no-repeat padding-box;
+    position: relative;
+    opacity: 1;
+}
+
+.symbol{
+    padding : 47.39px 0px 0px 68.11px;
+    /* //margin-left: 68px; */
+    width: 42px;
+    height: 58px;
+    font-size: 14px;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 3px;
+    position: absolute;
+}
+
+.border{
+    padding : 144px 0px 0px 385px;
+}
+
+.roundBox{
+    border: 2px dashed #253952;
+    border-radius: 46px;
+    top: 144px;
+    left: 385px;
+    width: 480px;
+    height: 480px;
+}
+
+.innerFormBox{
+    padding: 2px;
+    border: 1px solid black;
+    border-radius: 46px;
+    top: 175px;
+    left: 413px;
+    width: 419px;
+    height: 420px;
+    position: absolute;
+    box-shadow: 0 0 4px 1px black;
+    background-color: #253952;
+    
+}
+
+.welcometxt{
+    padding: 44px 0px 0px 62px;
+    opacity: 1;
+    color:white;
+    font-size: 23px;
+    letter-spacing: 0.83px;
+    opacity: 1;
+    font: normal normal normal 23px/25px Poppins;
+    font-family: Poppins;
+}
+
+.playerTxt1{
+    top: 110px;
+    left: 62px;
+    width: 53px;
+    height: 16px;
+    position: absolute;
+    font: normal normal normal 12px Roboto;
+    color: #FFFFFF;
+    opacity: 1;
+    font-family: poppins;
+}
+
+.playerTxt2{
+    top: 217px;
+    left: 62px;
+    width: 51px;
+    height: 17px;
+    position: absolute;
+    font: normal normal normal 12px Roboto;
+    color: #FFFFFF;
+    opacity: 1;
+    font-family: poppins;
+}
+
+
+.inputTexts  {
+    top: 59px;
+    left: 59px;
+    width: 302px;
+    height: 49px;
+    border: 1px solid #F0F0F0;
+    border-radius: 2px;
+    opacity: 1;
+    position : absolute;
+    /* margin-left: 62px;   
+    margin-top: 135px; */
+}
+
+.inputTexts2  {
+    top: 117px;
+    left: 59px;
+    width: 302px;
+    height: 49px;
+    border: 1px solid #F0F0F0;
+    border-radius: 2px;
+    opacity: 1;
+    /* margin-left: 62px;
+    margin-top: 135px; */
+}
+
+.continueBtn{
+    top: 160px;
+    left: 59px;
+    width: 300px;
+    height: 49px;
+    background: transparent linear-gradient(270deg, #FBA202 0%, #FF5800 100%) 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #000000;
+    border-radius: 2px;
+    opacity: 1;
+}
+
